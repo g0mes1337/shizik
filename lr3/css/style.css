@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../media/gosling.jpg'), center, no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 45px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.logo {
+    font-size: 32px;
+
+}
+.logo>a{
+    text-decoration: none;
+    color: white;
+}
+
+.number {
+
+    font-size: 24px;
+}
+.main{
+    padding-top: 150px;
+}
+.title{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Light', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Roboto Light', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn {
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 280px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    outline: none;
+}
+.btn:hover {
+    text-decoration: none;
+}
+.trigger{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.trigger-item{
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+    font-family: 'Roboto Light', sans-serif;
+}
+.inputs{
+    margin-bottom: 20px;
+}
+.wrap{
+    margin-bottom: 10px;
+}
+
+.text-input{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+form{
+    display: block;
+    width: 80%;
+    background-color: #ADADAD;
+    margin: 0 auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.form-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    padding: 35px;
+    flex-direction: column;
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.form-title{
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+.form-title-two{
+    margin-bottom: 24px;
+    font-size: 17px;
+    text-align: center;
+}
